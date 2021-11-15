@@ -1,0 +1,41 @@
+body {
+  background-color: D3D3D3;
+}
+h1 {
+  color: black;
+  text-align: center;
+}
+p {
+  color: red;
+}
+.btn1-group button {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+  width: 10%;
+}
+
+.btn1-group .button1 {
+  background-color: #808080;
+  color: black;
+}
+
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+  display: inline-block;
+}
+
+.input {
+  size: 100px;
+}

@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div class="center">
+      <h3 id="count1-el">0</h3>
+      <h1 id="count-el">0</h1>
+      <div class="btn1-group">
+        <button id="button1-el" onclick="calculation('%')">%</button>
+        <button id="button2-el" onclick="CE()">CE</button>
+        <button id="button3-el" onclick="C()">C</button>
+        <button id="button4-el" onclick="Del()">⌦</button>
+      </div>
+      <div class="btn1-group">
+        <button id="button5-el" onclick="button(7)">7</button>
+        <button id="button6-el" onclick="button(8)">8</button>
+        <button id="button7-el" onclick="button(9)">9</button>
+        <button id="button8-el" class="dis" onclick="calculation('*')">
+          x
+        </button>
+      </div>
+      <div class="btn1-group">
+        <button id="button9-el" onclick="button(4)">4</button>
+        <button id="button10-el" onclick="button(5)">5</button>
+        <button id="button11-el" onclick="button(6)">6</button>
+        <button id="button12-el" onclick="calculation('-')">-</button>
+      </div>
+      <div class="btn1-group">
+        <button id="button13-el" onclick="button(1)">1</button>
+        <button id="button14-el" onclick="button(2)">2</button>
+        <button id="button15-el" onclick="button(3)">3</button>
+        <button id="button16-el" onclick="calculation('+')">+</button>
+      </div>
+      <div class="btn1-group">
+        <button id="button17-el" onclick="button(0)">0</button>
+        <button id="button18-el" onclick="calculation('.')">.</button>
+        <button class="button button1" id="button19-el" onclick="equalto('=')">
+          =
+        </button>
+        <button id="button20-el" class="dis" onclick="calculation('/')">
+          /
+        </button>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
